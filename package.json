@@ -1,0 +1,19 @@
+{
+  "name": "landing-for-motd",
+  "version": "1.0.0",
+  "author": "ufame",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

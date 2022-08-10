@@ -1,0 +1,6 @@
+[*.{css,js,hbs,json}]
+{
+  indent_style = space
+  indent_size = space
+  tab_size = 2
+}

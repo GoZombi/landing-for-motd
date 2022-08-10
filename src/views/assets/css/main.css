@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+
+  font-family: 'Ubuntu Mono';
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+
+  padding: 5px;
+  text-transform: uppercase;
+  
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: #333;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  color: brown;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header__page {
+  width: 100%;
+
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 900;
+
+  opacity: 0.6;
+  text-align: center;
+
+  letter-spacing: 10px;
+}
+
+.nav {
+  font-size: 14px;
+}
+
+.nav__link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  position: relative;
+
+  color: brown;
+  font-size: 30px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition: color 0.2s linear;
+}
+
+.nav__link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+
+  background-color: #fce38a;
+  opacity: 0;
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+
+  transition: opacity 0.1s linear;
+}
+
+.nav__link:hover {
+  color: #fce38a;
+}
+
+.nav__link:hover::after {
+  opacity: 1;
+}
+
+.content__block {
+	padding: 10px;
+
+	color: #333;
+}
+
+.footer__block {
+  padding: 10px;
+
+  text-align: center;
+
+  color: #333;
+  background-color: #f1f1f1;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+}
+
+th {
+  font-size: 25px;
+}
+
+td {
+  font-size: 15px;
+}
+
+td,
+th {
+  padding: 5px;
+  border: 1px solid rgb(190, 190, 190);
+}

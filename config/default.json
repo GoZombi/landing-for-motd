@@ -1,0 +1,8 @@
+{
+  "App": {
+    "title": "GoZombi 2014"
+  },
+  "Server": {
+    "port": "3333"
+  }
+}
